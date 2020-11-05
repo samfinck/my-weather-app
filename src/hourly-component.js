@@ -162,86 +162,110 @@ export default function HourlyComponent({ day }){
             <div className="daily-hourly-div">
                 <div className="hourly-div">
                     <li className="hourly-list">
-                        <h6>{currentHour}:00 - {currentHourP}:00</h6>
-                        <h6> Min </h6>
-                        <h6> Max </h6>
+                        <h5 className="hours-title">{currentHour}:00 - {currentHourP}:00</h5>
+                        <div className="Min-Max-Container2">   
+                            <h6> Min </h6>
+                            <h6> Max </h6>
+                        </div>     
                     </li>
                 </div>
                 <div className="hourly-div">
                     <li className="hourly-list">
                         <h6>{currentHourP}:00 - {currentHour2P}:00</h6>
-                        <h6> Min </h6>
-                        <h6> Max </h6>
+                        <div className="Min-Max-Container2">   
+                            <h6> Min </h6>
+                            <h6> Max </h6>
+                        </div>  
                     </li>
                 </div>
                 <div className="hourly-div">
                     <li className="hourly-list">
                         <h6>{currentHour2P}:00 - {currentHour3P}:00</h6>
-                        <h6> Min </h6>
-                        <h6> Max </h6>
+                        <div className="Min-Max-Container2">                           
+                            <h6> Min </h6>
+                            <h6> Max </h6>
+                        </div>  
                     </li>
                 </div>
                 <div className="hourly-div">
                     <li className="hourly-list">
                         <h6>{currentHour3P}:00 - {currentHour4P}:00</h6>
-                        <h6> Min </h6>
-                        <h6> Max </h6>
+                        <div className="Min-Max-Container2">   
+                            <h6> Min </h6>
+                            <h6> Max </h6>
+                        </div>  
                     </li>
                 </div>
                 <div className="hourly-div">
                     <li className="hourly-list">
                         <h6>{currentHour4P}:00 - {currentHour5P}:00</h6>
-                        <h6> Min </h6>
-                        <h6> Max </h6>
+                        <div className="Min-Max-Container2">   
+                            <h6> Min </h6>
+                            <h6> Max </h6>
+                        </div>     
                     </li>
                 </div>
                 <div className="hourly-div">
                     <li className="hourly-list">
                         <h6>{currentHour5P}:00 - {currentHour6P}:00</h6>
-                        <h6> Min </h6>
-                        <h6> Max </h6>
+                        <div className="Min-Max-Container2">   
+                            <h6> Min </h6>
+                            <h6> Max </h6>
+                        </div>  
                     </li>
                 </div>
                 <div className="hourly-div">
                     <li className="hourly-list">
                         <h6>{currentHour6P}:00 - {currentHour7P}:00</h6>
-                        <h6> Min </h6>
-                        <h6> Max </h6>
+                        <div className="Min-Max-Container2">   
+                            <h6> Min </h6>
+                            <h6> Max </h6>
+                        </div>  
                     </li>
                 </div>
                 <div className="hourly-div">
                     <li className="hourly-list">
                         <h6>{currentHour7P}:00 - {currentHour8P}:00</h6>
-                        <h6> Min </h6>
-                        <h6> Max </h6>
+                        <div className="Min-Max-Container2">   
+                            <h6> Min </h6>
+                            <h6> Max </h6>
+                        </div>  
                     </li>
                 </div>
                 <div className="hourly-div">
                     <li className="hourly-list">
                         <h6>{currentHour8P}:00 - {currentHour9P}:00</h6>
-                        <h6> Min </h6>
-                        <h6> Max </h6>
+                        <div className="Min-Max-Container2">   
+                            <h6> Min </h6>
+                            <h6> Max </h6>
+                        </div>  
                     </li>
                 </div>
                 <div className="hourly-div">
                     <li className="hourly-list">
                         <h6>{currentHour9P}:00 - {currentHour10P}:00</h6>
-                        <h6> Min </h6>
-                        <h6> Max </h6>
+                        <div className="Min-Max-Container2">   
+                            <h6> Min </h6>
+                            <h6> Max </h6>
+                        </div>  
                     </li>
                 </div>
                 <div className="hourly-div">
                     <li className="hourly-list">
                         <h6>{currentHour10P}:00 - {currentHour11P}:00</h6>
-                        <h6> Min </h6>
-                        <h6> Max </h6>
+                        <div className="Min-Max-Container2">   
+                            <h6> Min </h6>
+                            <h6> Max </h6>
+                        </div>  
                     </li>
                 </div>
                 <div className="hourly-div">
                     <li className="hourly-list">
                         <h6>{currentHour11P}:00 - {currentHour12P}:00</h6>
-                        <h6> Min </h6>
-                        <h6> Max </h6>
+                        <div className="Min-Max-Container2">   
+                            <h6> Min </h6>
+                            <h6> Max </h6>
+                        </div>  
                     </li>
                 </div>
             </div>

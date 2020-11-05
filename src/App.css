@@ -92,11 +92,25 @@
 
 .hourly-div{
     border: 1px solid black;
-    width: 6vw;
+    width: 7vw;
     height: auto;
     margin: 1px;
 }
 
 .hourly-list{
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center
+}
+
+.hours-title{
+    justify-content: ;
+}
+
+.Min-Max-Container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
