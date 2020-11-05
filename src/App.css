@@ -8,9 +8,10 @@
 }
 
 .Weather-App{
-    border: 1px solid black;
+    border: 3px solid black;
     display: flex;
     flex-direction: row;
+    box-shadow: 3px 3px lightgray;
 }
 
 .Day-Card{
@@ -82,4 +83,20 @@
     margin-top: 0px;
     margin-bottom:0px;
     padding: 1px;
+}
+
+.daily-hourly-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.hourly-div{
+    border: 1px solid black;
+    width: 6vw;
+    height: auto;
+    margin: 1px;
+}
+
+.hourly-list{
+    list-style-type: none;
 }

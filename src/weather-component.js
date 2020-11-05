@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import HourlyComponent from './hourly-component';
 
 import WeatherDayComponent from './weather-day-component';
 
@@ -244,6 +245,9 @@ export default function WeatherComponent({ day }) {
           id= '0'
         />   
       </div>
+      <HourlyComponent
+        day={day}
+        />
     </div>
   );
 }
