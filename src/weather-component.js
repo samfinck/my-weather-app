@@ -170,6 +170,7 @@ export default function WeatherComponent({ day }) {
 
   return (
     <div className="Weather-App-Page" id="weatherPage">
+      <h1>7 Day Forecast</h1>
       <div className="Weather-App">
         <WeatherDayComponent
           day= {currentNamedDay}
