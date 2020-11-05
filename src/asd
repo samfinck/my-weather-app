@@ -1,0 +1,114 @@
+  
+
+
+
+
+  
+  const [currentDay, setCurrentDay] = useState('Monday');
+
+  const [CurrentDayEvaluate, setCurrentDayEvaluate] = useState(false);
+
+
+
+    
+
+    const [CurrentDayEvaluate, setCurrentDayEvaluate] = useState(false);
+
+
+    const dateFunctions = () => {
+        datePull();
+        CurrentDayStyle();
+        CurrentDayEvaluator();
+    };
+
+    const CurrentDayEvaluator = () => {
+        if (Days.dayNo=currentDay){
+            setCurrentDayEvaluate(true);
+            console.log(currentDayEvaluate)}
+    };
+
+    const datePull = () => {
+        const d = new Date();
+        setCurrentDay(d.getDay());
+    };
+
+    const CurrentDayStyle = () => {
+        console.log(currentDay)
+    };
+    
+
+    //    const [isCurrentDay, setIsCurrentDay] = useState(false);
+//    const [currentDayEvaluate, setCurrentDayEvaluate] = useState(false);
+
+//    const dateFunctions = () => {
+//        datePull();
+    //    setTimeout(CurrentDayStyle, 100);
+    //    CurrentDayEvaluator();
+    };
+
+//    const datePull = () => {
+//        const d = new Date();
+//        setCurrentDay(d.getDay());
+//        console.log(currentDay)
+//    };
+
+//    const CurrentDayEvaluator = () => {
+//        if (dayNo=currentDay){
+//            setCurrentDayEvaluate(true);
+//            console.log(currentDayEvaluate)}
+//    };
+
+//    const CurrentDayStyle = () => {
+//        
+//    };
+
+
+  useEffect(() => {
+    const d = new Date();
+    const n = namedDays[d.getDay()];
+    setCurrentNamedDay2P
+  })
+
+  useEffect(() => {
+    const d = new Date();
+    const n = namedDays[d.getDay()];
+    setCurrentNamedDay3P
+  })
+
+  useEffect(() => {
+    const d = new Date();
+    const n = namedDays[d.getDay()];
+    setCurrentNamedDay4P
+  })
+
+  useEffect(() => {
+    const d = new Date();
+    const n = namedDays[d.getDay()];
+    setCurrentNamedDay5P
+  })
+
+  useEffect(() => {
+    const d = new Date();
+    const n = namedDays[d.getDay()];
+    setCurrentNamedDay6P
+  })
+
+
+    const D = new Date();
+    const n = D.getDay();
+    const a = n + 1;
+
+    const g = ({ a }) => {  
+      if(a > 6){
+        b = a - 6;
+        c = -1 + b;
+        const d = namedDays[d.getDay()];
+        setCurrentNamedDayP(d)
+      }
+      else{
+        const e = () => {E == namedDays[a.getDay()]};
+        e();
+        setCurrentNamedDayP(E)
+      }
+    }
+    g();
